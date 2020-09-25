@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: demo-ui
-        image: gcr.io/roidtcproj215/external-image:v1.0
+        image: gcr.io/roidtcproj215/external-image:v1.3
         env: 
         - name: SERVER
           value: "http://demo-service:8082"

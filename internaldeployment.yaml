@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: demo-api
-        image: gcr.io/roidtcproj215/internal-image:v1.0
+        image: gcr.io/roidtcproj215/internal-image:v1.2
         ports:
         - containerPort: 8082
             
